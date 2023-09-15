@@ -34,7 +34,7 @@
 
   <p align="left"> <font color="green" size="2" face="Arial"> Data urodzenia: 14_stycznia_2000_roku </font> </p> <br>
   
-  <p align="center"> <font color="orange" size="1" face="Arial"> H<sub>2</sub>O</sub> </font> </p> <br>
+  <p align="center"> <font color="orange" size="1" face="Arial"> H<sub>2</sub>O </font> </p> <br>
   
   <p align="center"> <font color="green" size="1" face="Arial"> y*y=y<sup>2</sup> </font> </p> <br>
   
