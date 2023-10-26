@@ -1,11 +1,177 @@
 <!DOCTYPE html>
-  <html lang="pl-PL">
-       <head>
-         <meta charset="utf-8">
-            <title> </title>
-       </head>
-     <body>
-	 tutaj będzie formularz
-	 <A HREF="index.html"> wróc </A>
-     </body>
-  </html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zadanie formularz</title>
+	</head>
+<body bgcolor="#FF00FF">
+	<tr height="200">
+	<center><h1> Formularz społeczny </h1> </center>
+	<form  action="mailto:mkryniew@ids.gda.pl" method="post" subject="formularz_dane">
+		<table>
+		<td width="500">
+		
+			
+				Imię  <input type="name" name="name" /><br>
+				Nazwisko  <input type="name" name="surname" /><br>
+				PESEL  <input type="password" maxlength="11"/>
+				<br>Klasa <br>
+				<select name="class">
+					<optgroup label="1"><option>1G</option><option>1K</option><option>1P</option><option>1E</option></optgroup>
+					<optgroup label="2"><option>2G</option><option>2K</option><option>2P</option><option>2E</option></optgroup>
+					<optgroup label="3"><option>3G</option><option>3K</option><option>3P</option><option>3E</option></optgroup>
+					<optgroup label="4"><option>4G</option><option>4K</option><option>4P</option><option>4E</option></optgroup></select>
+				
+			
+		</td>
+
+		<td width="500">
+			
+				Relacje z kolegami/koleżankami<br>
+				
+				<label ><input type="radio" name="relship_friends"  value="Bardzo dobry">Bardzo dobry<br>
+				<label ><input type="radio" name="relship_friends"  value="Dobrze">Dobrze<br>
+				<label ><input type="radio" name="relship_friends"  value="Normalnie">Normalnie<br>
+				<label ><input type="radio" name="relship_friends"  value="Tak sobie">Tak sobie<br>
+				<label ><input type="radio" name="relship_friends"  value="Dobrze, ale nie ze wszystkimi">Dobrze, ale nie ze wszystkimi<br>
+				<label ><input type="radio" name="relship_friends"  value="Niedobrze">Niedobrze<br>
+				<label ><input type="radio" name="relship_friends"  value="Złe">Złe<br>
+			    
+				
+		</td>
+			
+		<td width="500">		
+				<select  name="favorite_subject">
+					<option>Ulubiony przedmiot</option><option>biologia</option><br>
+					<option>chemia</option><option>EDB</option><br>
+					<option>fizyka</option><option>geografia</option><br>
+					<option>historia</option><option>informatyka</option><br>
+					<option>język polski</option><option>język angelski</option><br>
+					<option>muzyka</option><option>matematyka</option><br>
+					<option>plastyka</option><option>przyroda</option><br>
+					<option>technika</option><option>WF</option></select><br>
+				
+				
+					<select  name="!favorite_subject">
+					<option>Najgorszy przedmiot</option><option>biologia</option><br>	
+					<option>chemia</option><option>EDB</option><br>
+					<option>fizyka</option><option>geografia</option><br>
+					<option>historia</option><option>informatyka</option><br>
+					<option>język polski</option><option>język angelski</option><br>
+					<option>muzyka</option><option>matematyka</option><br>
+					<option>plastyka</option><option>przyroda</option><br>
+					<option>technika</option><option>WF</option></select><br>
+				
+			
+
+				</td>
+				<td width="500">
+				Wystarczająca ocena dla Ciebie<br>
+				
+				<label ><input type="radio" name="relship_friends" >cel(6)<br>
+				<input type="radio" name="relship_friends" >bdb(5)<br>
+				<input type="radio" name="relship_friends" >db(4)<br>
+				<input type="radio" name="relship_friends" >dst(3)<br>
+				<input type="radio" name="relship_friends" >dop(2)<br>
+				<input type="radio" name="relship_friends" >ndt(1)<br>
+			    
+			
+
+				</td>
+				
+				
+					<td width="500">
+					Oceń mój formular<br>
+					🙁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😃<br>
+					<input type="range" min="0" max="10" step="1" value="5"><br>
+					Czy uda się ją złapać?<br>
+					<progress></progress><br>
+					<input  type="reset" value="Usuń dane">
+					<input type="submit"  value="Wyślij formularz">
+					<button  type="button"><a href="index.html"> Wróć</a></button>
+					<button onclick="alert('A kuku')" style="height:40px;width:300px">Przycisk niespodzianka</button>
+			
+			
+		
+		
+		
+
+			</td>
+			<td width="500">
+				Co myślisz o szkolnej stołówce?<br>
+				
+					<input type="checkbox" name="eat_room"  value="1">1<br>
+					<input type="checkbox" name="eat_room"  value="2">2<br>
+					<input type="checkbox" name="eat_room"  value="3">3<br>
+					<input type="checkbox" name="eat_room"  value="4">4<br>
+					<input type="checkbox" name="eat_room"  value="5">5<br>
+				
+				<textarea></textarea>
+			
+
+			</td>
+		</tr>
+			<tr height="300">
+			<td width="500">
+				Co myślisz o planie lekcji?<br>
+					
+					<input type="checkbox" name="lessons_plan"  value="1">1<br>
+					<input type="checkbox" name="lessons_plan"  value="2">2<br>
+					<input type="checkbox" name="lessons_plan"  value="3">3<br>
+					<input type="checkbox" name="lessons_plan"  value="4">4<br>
+					<input type="checkbox" name="lessons_plan"  value="5">5<br>
+				
+				<textarea ></textarea>
+			</td>
+
+				<td width="600"> 
+				Jak oceniasz szkolną siłownie?<br>
+				
+					<input type="radio" name="school_uniform"  value="1">1<br>
+					<input type="radio" name="school_uniform"  value="2">2<br>
+					<input type="radio" name="school_uniform"  value="3">3<br>
+					<input type="radio" name="school_uniform"  value="4">4<br>
+					<input type="radio" name="school_uniform"  value="5">5<br>
+				
+				<textarea ></textarea>
+			
+
+			</td>
+			<td width="600">
+				Czy uważasz, że jakieś lekcje są niepotrzebne?<br>
+				
+					<input type="radio" name="no_need_lessons"  value="1">HiT<br>
+					<input type="radio" name="no_need_lessons"  value="2">BHP<br>
+					<input type="radio" name="no_need_lessons"  value="3">Edb<br>
+					<input type="radio" name="no_need_lessons"  value="4">Wdż<br>
+				
+				<textarea ></textarea>
+			</td>
+
+				<td width="500">
+				Co myślisz o szkolnym psychologu?<br>
+				
+					<input type="checkbox" name="psychologist"  value="1">1<br>
+					<input type="checkbox" name="psychologist"  value="2">2<br>
+					<input type="checkbox" name="psychologist"  value="3">3<br>
+				
+				<textarea></textarea>
+			
+			</td>
+			<td width="500">
+
+			
+				Skargi i propozycji do szkoły<br>
+				
+					<input type="name" style="height:40px;width:300px" placeholder="Wpisz temat skargi lub propozycji (do 70 znaków)" maxlength="70">	<br>
+				
+				<textarea ></textarea><br>
+			</td>
+				</tr>
+		
+	   
+	</form>
+</table>
+</body>
+</html>
